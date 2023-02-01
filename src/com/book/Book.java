@@ -103,11 +103,11 @@ public class Book {
 	}
 
 	public void setTitle(String title) {
-		this.title = title;
+		this.title = capital(title);
 	}
 
 	public void setAuthor(String author) {
-		this.author = author;
+		this.author = capital(author);
 	}
 
 	public void setCategory(String category) {
